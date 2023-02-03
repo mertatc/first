@@ -5,27 +5,35 @@ const cities = [
     
     {
         id:1,
-    title:'London'
+        title:'London'
     },  
     {
-    id:2,
-    title:'Sydney'
+        id:2,
+        title:'Sydney'
     }, 
     {
-    id:3,
-    title:'Tokyo'
+        id:3,
+        title:'Tokyo'
     }, 
     {
-    id:4,
-    title:'Toronto'
+        id:4,
+        title:'Toronto'
     }, 
     {
-    id:5,
-    title:'Paris'
+        id:5,
+        title:'Paris'
     }, 
-]                 
+];                
     
-    return <div>TopButtın</div>
+    return <div className="flex items-center justify-aro my-6">
+        {cities.map((city) => (
+
+            <button key={city.id} className="text-white text-lg font-medium">{city.title}</button>
+
+        ))}
+    </div>
+        
+          
 }
 
-export default TopButtın
+export default TopButton
