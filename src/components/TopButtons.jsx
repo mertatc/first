@@ -25,7 +25,7 @@ const cities = [
     }, 
 ];                
     
-    return <div className="flex items-center justify-aro my-6">
+    return <div className="flex items-center justify-around my-6">
         {cities.map((city) => (
 
             <button key={city.id} className="text-white text-lg font-medium">{city.title}</button>
@@ -36,4 +36,4 @@ const cities = [
           
 }
 
-export default TopButton
+export default TopButtons;
