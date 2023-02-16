@@ -2,6 +2,7 @@ import './App.css';
 import UilReact from '@iconscout/react-unicons/icons/uil-react'
 import TopButtons from './components/TopButtons';
 import Inputs from "./components/Inputs";
+import TimeAndLocaiton from './components/TimeAndLocaiton';
 
 function App() {
     //mx auto komutu ortalıyor
@@ -12,7 +13,7 @@ function App() {
 
     <TopButtons />
     <Inputs />
-
+    <TimeAndLocaiton />
     </div>
 
     
